@@ -15,9 +15,11 @@ echo -e "\e[31m Current date is $current_date\e[0m"
 echo -e "\e[32m Current time is $current_time\e[0m"
 
 sum=$((2+3))
+echo $sum
 
 a=5
 b=4
 
 total=$((a+b))
+echo ${total}
 
