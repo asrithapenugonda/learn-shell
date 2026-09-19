@@ -5,7 +5,7 @@ echo " My name is $name and I'm $age"
 
 name = Asritha #no spaces must there when assigning variables
 
-date_time=$date
+date_time=$(date)
 echo " Current date and time are $date_time"
 
 current_date=$(date +%Y-%m-%d)
